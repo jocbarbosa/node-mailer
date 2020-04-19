@@ -4,7 +4,7 @@ const app = express();
 require('dotenv').config()
 const nodemailer = require('nodemailer');
 
-const port = 3333;
+const port = 3000;
 
 const user = process.env.SMTP_USER;
 const pass = process.env.SMTP_PASS;
